@@ -107,10 +107,16 @@ odd number element with a particular class,
 then use what you used in the above two selectors 
 to specify what the parent must be.*/
 
-.cell:nth-child(odd){
+.cell:nth-child(odd)
+{
   background-color: black;
 }
 
+/*Every third cell is purple*/
+.cell:nth-child(3n+3)
+{
+  background-color: purple;
+}
 /* 
 Selector_10: select all image elements when you hover
 your mouse over them AND all of the elements selected
@@ -127,6 +133,19 @@ at the same time.* */
 
 img:hover , div div div:hover{
   border: solid yellow thin;
+}
+
+.rules p
+{
+  text-align: left;
+  font-size: large;
+  color: black;
+}
+
+.rules h2
+{
+  line-height: 30px;
+  color:rgb(230, 132, 132)
 }
 
 /* ## Extensions
