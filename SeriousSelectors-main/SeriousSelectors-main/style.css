@@ -135,6 +135,14 @@ img:hover , div div div:hover{
   border: solid yellow thin;
 }
 
+/*This selector takes place before the "rules" class*/
+.rules::before
+{
+  content: "Rules";
+  font-size: 50px;
+  color:rgb(128, 128, 236);
+}
+
 .rules p
 {
   text-align: left;
